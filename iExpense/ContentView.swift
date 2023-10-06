@@ -15,15 +15,20 @@ struct ContentView: View {
             showingSheet.toggle()
         }
         .sheet(isPresented: $showingSheet) {
-            SecondView()
+            SecondView(name: "dennis")
         }
     }
 }
 
 struct SecondView: View {
-    var body: some View {
-        Text("Second View")
-    }
+    let name: String
+    @Environment(\.dismiss) var dismiss
+
+       var body: some View {
+           Button("Dismiss") {
+               dismiss()
+           }
+       }
 }
 
 struct ContentView_Previews: PreviewProvider {
