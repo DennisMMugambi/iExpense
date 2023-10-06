@@ -56,11 +56,11 @@
 		63A86E372ACFE061004971F5 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				63A86E492ACFF4CC004971F5 /* ExpensesViewModel.swift */,
 				63A86E382ACFE061004971F5 /* iExpenseApp.swift */,
 				63A86E3A2ACFE061004971F5 /* ContentView.swift */,
 				63A86E3C2ACFE065004971F5 /* Assets.xcassets */,
 				63A86E3E2ACFE065004971F5 /* Preview Content */,
-				63A86E492ACFF4CC004971F5 /* ExpensesViewModel.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
